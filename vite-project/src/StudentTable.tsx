@@ -9,7 +9,7 @@ const StudentTable: React.FC = () => {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('/data/student.json')
+    fetch('/api/students')
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load data (${res.status})`)
         return res.json()

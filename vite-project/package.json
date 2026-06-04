@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "vite",
     "server": "node server.mjs",
@@ -12,6 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.0",
     "express": "^5.2.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
