@@ -1,0 +1,148 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "rollNo": "CS001",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "+91-9876543210",
+      "age": 20,
+      "gender": "Male",
+      "course": "Computer Science",
+      "year": 2,
+      "section": "A",
+      "cgpa": 8.7,
+      "address": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India"
+      },
+      "subjects": [
+        "Data Structures",
+        "Operating Systems",
+        "DBMS"
+      ],
+      "active": true
+    },
+    {
+      "id": 2,
+      "rollNo": "CS002",
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "phone": "+91-9823456789",
+      "age": 21,
+      "gender": "Female",
+      "course": "Computer Science",
+      "year": 3,
+      "section": "B",
+      "cgpa": 9.2,
+      "address": {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India"
+      },
+      "subjects": [
+        "Computer Networks",
+        "Machine Learning",
+        "Web Development"
+      ],
+      "active": true
+    },
+    {
+      "id": 3,
+      "rollNo": "EC003",
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "phone": "+91-9911223344",
+      "age": 22,
+      "gender": "Male",
+      "course": "Electronics",
+      "year": 4,
+      "section": "A",
+      "cgpa": 7.8,
+      "address": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India"
+      },
+      "subjects": [
+        "Digital Electronics",
+        "Signals",
+        "Microprocessors"
+      ],
+      "active": false
+    },
+    {
+      "id": 4,
+      "rollNo": "ME004",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@example.com",
+      "phone": "+91-9000112233",
+      "age": 20,
+      "gender": "Female",
+      "course": "Mechanical",
+      "year": 2,
+      "section": "C",
+      "cgpa": 8.1,
+      "address": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      },
+      "subjects": [
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Machine Design"
+      ],
+      "active": true
+    },
+    {
+      "id": 5,
+      "rollNo": "CS005",
+      "name": "Ishaan Gupta",
+      "email": "ishaan.gupta@example.com",
+      "phone": "+91-9765432100",
+      "age": 23,
+      "gender": "Male",
+      "course": "Computer Science",
+      "year": 4,
+      "section": "A",
+      "cgpa": 8.9,
+      "address": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      },
+      "subjects": [
+        "Artificial Intelligence",
+        "Cloud Computing",
+        "Cyber Security"
+      ],
+      "active": true
+    },
+    {
+      "id": 6,
+      "rollNo": "CS0055",
+      "name": "MD SAWJAL SIKDER",
+      "email": "mdsajalsikder@gmail.com",
+      "phone": "01722085217",
+      "age": 25,
+      "gender": "Male",
+      "course": "Computer Science",
+      "year": 1958,
+      "section": "A",
+      "cgpa": 4.5,
+      "address": {
+        "city": "Dhaka",
+        "state": "OK",
+        "country": "India"
+      },
+      "subjects": [
+        "Data Structures",
+        "Operating Systems",
+        "DBMS"
+      ],
+      "active": true
+    }
+  ]
+}

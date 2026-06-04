@@ -1,0 +1,94 @@
+.student-table-wrapper {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.student-table-wrapper h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.student-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #999;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.badge {
+  font-weight: bold;
+}
+
+.badge.active {
+  color: green;
+}
+
+.badge.inactive {
+  color: red;
+}
+
+.add-student-form {
+  border: 1px solid #999;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background: #fafafa;
+}
+
+.add-student-form h3 {
+  margin: 0 0 0.75rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.add-student-form input,
+.add-student-form select {
+  padding: 6px 8px;
+  border: 1px solid #999;
+  font-size: 0.9rem;
+}
+
+.add-student-form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.add-student-form button {
+  padding: 8px 16px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.add-student-form button:hover {
+  background: #145ca8;
+}
+
+.status {
+  text-align: center;
+  margin: 2rem;
+}
+
+.status.error {
+  color: red;
+}
